@@ -1,12 +1,20 @@
 /*
-Runtime: 16 ms, faster than 97.48% of C++ online submissions for Compare Strings by Frequency of the Smallest Character.
-Memory Usage: 10.6 MB, less than 100.00% of C++ online submissions for Compare Strings by Frequency of the Smallest Character.
+Runtime: 20 ms, faster than 86.86% of C++ online submissions for Compare Strings by Frequency of the Smallest Character.
+Memory Usage: 10.8 MB, less than 100.00% of C++ online submissions for Compare Strings by Frequency of the Smallest Character.
 */
 class Solution {
 public:
     int f(string s){
-        char minc = *min_element(s.begin(), s.end());
-        return count(s.begin(), s.end(), minc);
+        int minc = 'z';
+        int answer = 0;
+        for(char c : s){
+            if(c == minc) answer++;
+            else if(c < minc){
+                minc = c;
+                answer = 1;
+            }
+        }
+        return answer;
     }
     
     vector<int> numSmallerByFrequency(vector<string>& queries, vector<string>& words) {
