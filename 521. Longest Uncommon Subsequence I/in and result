@@ -1,0 +1,13 @@
+Accepted
+Runtime: 8 ms
+Your input
+	"aba"
+	"cdc"
+	"abc"
+	"abcabcabc"
+Output
+	3
+	9
+Expected
+	3
+	9
