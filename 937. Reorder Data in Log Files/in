@@ -1,0 +1,8 @@
+["dig1 8 1 5 1","let1 art can","dig2 3 6","let2 own kit dig","let3 art zero"]
+["dig1 8 1 5 1","let1 3 4","dig2 3 6"]
+["dig1 arg chi par","let0 art can", "let1 art can","let2 own kit dig","let3 art zero"]
+["dig1 arg chi par","let1 art can", "let0 art can","let2 own kit dig","let3 art zero"]
+["let4 art zero", "dig1 8 1 5 1","let1 art can","dig2 3 6","let2 own kit dig","let3 art zero"]
+["1 n u", "r 527", "j 893", "6 14", "6 82"]
+["1 n u", "1 n a", "1 n b",  "r 527", "j 893", "6 14", "6 82"]
+["1 n a", "1 n b", "2 n a",  "r 527", "j 893", "6 14", "6 82"]

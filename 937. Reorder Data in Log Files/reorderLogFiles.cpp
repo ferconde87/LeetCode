@@ -1,7 +1,13 @@
 /*
 Runtime: 8 ms, faster than 98.45% of C++ online submissions for Reorder Data in Log Files.
 Memory Usage: 14.6 MB, less than 47.06% of C++ online submissions for Reorder Data in Log Files.
+
+Pasando por referencia en el compare 'f' :) (no sé por qué corrió más lento, probablemente la medición del Runtime no es muy confiable :P)
+Runtime: 12 ms, faster than 90.26% of C++ online submissions for Reorder Data in Log Files.
+Memory Usage: 12.2 MB, less than 88.24% of C++ online submissions for Reorder Data in Log Files.
+
 */
+
 bool f (string a, string b) {
     int index_a = a.find(" ") + 1;
     int index_b = b.find(" ") + 1;
