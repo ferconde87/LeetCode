@@ -1,5 +1,5 @@
 /**
-Runtime: 12 ms, faster than 75.35% of C++ online submissions for Path Sum.
+Runtime: 8 ms, faster than 96.19% of C++ online submissions for Path Sum.
 Memory Usage: 19.6 MB, less than 100.00% of C++ online submissions for Path Sum.
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -14,11 +14,11 @@ public:
     bool prueba = false;
     bool hasPathSumRec(TreeNode* root, int sum, int current) {
         if(root == NULL) return false;
+        current += root->val;
         if(root->left == NULL && root->right == NULL){
-            current += root->val;
             return sum == current;
         } 
-        return hasPathSumRec(root->left, sum, current+root->val) || hasPathSumRec(root->right, sum, current+root->val);
+        return hasPathSumRec(root->left, sum, current) || hasPathSumRec(root->right, sum, current);
     }
     
     bool hasPathSum(TreeNode* root, int sum) {
