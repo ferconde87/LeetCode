@@ -1,3 +1,5 @@
+# Runtime: 924 ms, faster than 46.88% of Python3 online submissions for Contiguous Array.
+# Memory Usage: 18.2 MB, less than 16.67% of Python3 online submissions for Contiguous Array.
 class Solution:
     def findMaxLength(self, nums: List[int]) -> int:
         m = {0:-1}
