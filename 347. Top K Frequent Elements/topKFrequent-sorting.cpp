@@ -1,3 +1,12 @@
+/*
+Runtime: 12 ms, faster than 99.76% of C++ online submissions for Top K Frequent Elements.
+Memory Usage: 9 MB, less than 100.00% of C++ online submissions for Top K Frequent Elements.
+
+- Even though in the description of the problem is not allow to use sorting... because the algorithm has to be strictly better than 
+O(n log n), if we sort, we get better performance than using a heap
+*/
+
+
 unordered_map<int, int> make_map(vector<int> & nums){
     unordered_map<int, int> map;
     for(int x : nums){
