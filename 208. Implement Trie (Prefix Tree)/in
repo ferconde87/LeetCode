@@ -1,0 +1,8 @@
+["Trie","insert","search","search","startsWith","insert","search"]
+[[],["apple"],["apple"],["app"],["app"],["app"],["app"]]
+["Trie","insert","search","startsWith","search","insert","startsWith"]
+[[],["a"],["a"],["a"],["app"],["app"],["app"]]
+["Trie","insert","search","startsWith","search","insert","startsWith","startsWith","startsWith","startsWith","search","insert","search","search","startsWith","startsWith"]
+[[],["a"],["a"],["a"],["app"],["app"],["app"],["a"],["ap"],["bob"],["bob"],["bob"],["appl"],["bob"],["bo"],["bob"]]
+["Trie","insert","insert","insert","insert","insert","insert","search","search","search","search","search","search","search","search","search","startsWith","startsWith","startsWith","startsWith","startsWith","startsWith","startsWith","startsWith","startsWith"]
+[[],["app"],["apple"],["beer"],["add"],["jam"],["rental"],["apps"],["app"],["ad"],["applepie"],["rest"],["jan"],["rent"],["beer"],["jam"],["apps"],["app"],["ad"],["applepie"],["rest"],["jan"],["rent"],["beer"],["jam"]]
