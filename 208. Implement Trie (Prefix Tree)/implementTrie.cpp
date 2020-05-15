@@ -1,3 +1,7 @@
+/*
+Runtime: 112 ms, faster than 56.40% of C++ online submissions for Implement Trie (Prefix Tree).
+Memory Usage: 43.6 MB, less than 56.67% of C++ online submissions for Implement Trie (Prefix Tree).
+*/
 const int ALPHABET_SIZE = 26;
 
 class Trie {
