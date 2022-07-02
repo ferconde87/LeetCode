@@ -21,10 +21,10 @@ fun maxArea(h: Int, w: Int, horizontalCuts: IntArray, verticalCuts: IntArray): I
 fun main() {
     val h = readInt()
     val w = readInt()
-    val horizontalCuts = readInts()
-    val verticalCuts = readInts()
+    val horizontalCuts: IntArray = readInts()
+    val verticalCuts: IntArray = readInts()
     println(maxArea(h,w,horizontalCuts, verticalCuts))
 }
 
 private fun readInt() = readLine()!!.toInt()
-private fun readInts() = readLine()!!.split(" ").map {it.toInt()}
+private fun readInts(): IntArray = readLine()!!.split(" ").map {it.toInt()}.toIntArray()
