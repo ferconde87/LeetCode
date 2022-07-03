@@ -1,1 +1,5 @@
 .vscode
+*.jar
+**/*.jar
+.idea/
+LeetCode.iml
