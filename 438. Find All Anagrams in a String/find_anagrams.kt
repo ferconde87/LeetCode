@@ -34,16 +34,17 @@ fun main() {
             }
         }
 
-        for (elem in result) {
-            print(elem)
-            print(" ")
-        }
-        println()
         return result
     }
 
     findAnagrams("cbaebabacd", "abc")
     findAnagrams("abab", "ab")
+    findAnagrams("cbaebabacd", "bacd")
+    findAnagrams("qwertyxdcabx", "bacd")
+    findAnagrams("qwertyxdcabxcad", "bacd")
+    findAnagrams("qwertyxdcabxcadb", "bacd")
+    findAnagrams("a", "b")
+    findAnagrams("aa", "a")
 }
 
 
